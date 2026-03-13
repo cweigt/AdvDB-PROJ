@@ -23,21 +23,21 @@
     <main class="content-wrapper">
         <div class="post-card">
             <h1>Create New Post</h1>
-            <form id="create-post-form">
+            <form id="create-post-form" action="../processing/form_processing.php" method="post" enctype="multipart/form-data">
                 
                 <div class="input-group">
                     <label for="post-image">Upload Photo</label>
-                    <input type="file" id="post-image" accept="image/*">
+                    <input type="file" name="photo" id="post-image" accept="image/*">
                 </div>
 
                 <div class="input-group">
                     <label for="post-title">Title</label>
-                    <input type="text" id="post-title" placeholder="Give your post a title..." required>
+                    <input type="text" name="title" id="post-title" placeholder="Give your post a title..." required>
                 </div>
 
                 <div class="input-group">
                     <label for="post-description">Description</label>
-                    <textarea id="post-description" rows="3" placeholder="What's on your mind?"></textarea>
+                    <textarea type="text" name="description" id="post-description" rows="3" placeholder="What's on your mind?"></textarea>
                 </div>
 
                 <button type="submit" class="submit-btn">Share Post</button>
