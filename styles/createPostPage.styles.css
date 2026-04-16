@@ -10,51 +10,6 @@ body {
     color: #1c1e21;
 }
 
-/* Navbar Styling */
-.navbar {
-    background-color: #ffffff;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-
-.nav-container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #1877f2;
-    text-decoration: none;
-}
-
-.nav-links {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: #65676b;
-    font-weight: 600;
-    transition: color 0.2s;
-}
-
-.nav-links a:hover, .nav-links a.active {
-    color: #1877f2;
-}
-
 /* Form Container */
 .content-wrapper {
     display: flex;
